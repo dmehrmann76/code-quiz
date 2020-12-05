@@ -1,0 +1,114 @@
+
+:root{
+    background-color: grey;
+    }
+  
+    h2{
+        font-family: Georgia, Times, 'Times New Roman', serif;
+        margin-top: 2;
+    }
+    input{
+        text-align: center;
+    }
+    
+    .container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 0 auto;
+      }
+    
+      button {
+        display: inline-block;
+        font-family: sans-serif;
+        background-color: #cfaf44;
+        text-align: center;
+      }
+    
+    #startpage{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    #timer{
+        font-family: sans-serif;
+        background-color: #182a8e;
+        color: #ffffff;
+        font-size: large;
+        text-align: center;
+    }
+    #quiz {
+        display: none;
+    }
+    
+    #result {
+        display: none;
+    }
+    
+    #gameover {
+        text-align: center;
+        display: none;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    #highScore{
+        height: 5px;
+        border: thick 2px;
+    }
+    
+    #high-scorePage{
+        display: flex;
+        width: 50%;
+        padding-bottom: 3px;
+        background: white;
+    }
+    
+    #highscore-header{
+        display: flex;
+        justify-content: space-around;
+        border-bottom-style: outset;
+        margin-bottom: 10px;
+        background-color: #b1b10c;
+        color: #eeeeee;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+    }
+    #highscoreContainer{
+        height: 75%;
+        width: 75%;
+        display: none;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    #initials{
+        margin: 5px 5px;
+    }
+    
+    #highscore-initials{
+        display: inline-block;
+        padding-left: 20px;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        font-weight: bold;
+    }
+    
+    #highscore-score{
+        float: right;
+        padding-right: 20px;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        font-weight: bold;
+    }
+    
+    #finalScore{
+        padding-bottom: 5px;
+        font-size: large;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        font-weight: bold;
+    }
+    
+    #endGameBtns{
+        display: list-item;
+        margin: 10px auto;
+    }
