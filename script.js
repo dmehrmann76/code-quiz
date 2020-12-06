@@ -118,7 +118,7 @@ function checkAnswer(answer){
     }
 }
 
-// This function is the end page that shows your score after completeing the quiz
+// This function is the end page that shows your score after completing the quiz
 function showScore(){
     quizDiv.style.display = "none"
     gameoverDiv.style.display = "flex";
@@ -192,5 +192,5 @@ function replayQuiz(){
     questionIndex = 0;
 }
 
-// begins the quiz!
+// begins the quiz
 beginQuizButton.addEventListener("click",beginQuiz);
