@@ -1,5 +1,5 @@
 
-// Gathering HTML elements for manipulation
+//HTML elements
 var quizDiv = document.getElementById("quiz");
 var resultsEl = document.getElementById("result");
 var finalScoreEl = document.getElementById("finalScore");
@@ -21,7 +21,7 @@ var buttonC = document.getElementById("c");
 var buttonD = document.getElementById("d");
 
 
-// Quiz question object
+// Quiz questions 
 var quizQuestions = [{
     question: "Which one of these is not a building block of the web?",
     A: "HTML",
